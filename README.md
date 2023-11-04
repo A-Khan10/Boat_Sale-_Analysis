@@ -17,7 +17,7 @@ The key questions from the marketing teams are:
 4. Where are the most-watched boats located?
  
 ## Data Source
-The data for this dataset is sourced from Kaggle.com revolves around a boat sales website where individuals sell both new and used boats. This website serves as a platform for boat owners to list their boats for sale, providing a diverse and dynamic source of information related to boat sales. The data source is directly tied to the boat sales market, making it highly relevant for marketing and trend analysis in the boating industry.
+The data for this dataset is sourced from [Kaggle.com]([)](https://www.kaggle.com/datasets/karthikbhandary2/boat-sales) revolves around a boat sales website where individuals sell both new and used boats. This website serves as a platform for boat owners to list their boats for sale, providing a diverse and dynamic source of information related to boat sales. The data source is directly tied to the boat sales market, making it highly relevant for marketing and trend analysis in the boating industry.
 ## Data Collection
 The data collection process for this dataset is continuous and ongoing, with updates expected on an annual basis. This regularity in updates ensures that the dataset remains current and reflective of changing market conditions. The marketing team uses this data to create a weekly newsletter for boat owners, helping them enhance the visibility of their listings and stay informed about market trends. The data collection process likely involves web scraping or API access to gather information from the boat sales website.
 ## Contents
