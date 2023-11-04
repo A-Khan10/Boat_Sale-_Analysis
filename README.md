@@ -15,9 +15,40 @@ The key questions from the marketing teams are:
 2. What is the cost of the boats that garner the most attention?
 3. Is there anything in common among the most-viewed boats?
 4. Where are the most-watched boats located?
+
+# TOOLS
+Language: Python
+Libraries: Pandas, Numpy, Seaborn, Matplotlib, Scipy, Quandl, matplotlib.pyplot,
+statsmodels.api, json, folium, from folium import plugins, 
+sklearn, from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split 
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.cluster import KMeans 
+from scikit-learn, import pylab
+Software: Jupyter Notebooks and Tableau
+# SKILLS DEMONSTRATED
+Data Wrangling, Cleaning data: removed duplicates; found and resolved missing values; addressed mixed or incorrect data types.
+
+Exploratory & Descriptive Analysis: explored basic descriptive statistics (max/min, quartiles, mean, standard deviation) for each variable as well as using histograms, scatterplots, and bar and line charts to explore the distributions of data.
+
+Exploring Relationships, Data prep for Regression Analysis, Regression Analysis
+Standadizing the data, The elbow technique, k-means clustering,
+Subsetting of the Data
+Time series analysis: Decomposition
+Testing for stationarity ( Dicky-Fuller Test / Autocorelation Test )¶
+Stationarizing the Data
+
+Derived new variables, Used aggregated data to create flags.
+Visualising data: Create histograms, line charts, and bar charts, Plotting a choropleth, Correlations Scatterplots Pair Plots Categorical Plots,
+
+
+# DELIVERABLES
+Reporting results: [Tableau presentation](https://public.tableau.com/app/profile/ayaz.khan7372/viz/BoatsSaleAnalsis/BoatSale) that explained the answers to questions from sales and marketing as well as documenting the data population flow, consistency checks, data wrangling, and column derivations.
+[Final Tableau Report](https://public.tableau.com/app/profile/ayaz.khan7372/viz/BoatsSaleAnalsis/BoatSale): Include analysis findings, visualisation, conclusion and recommendations to Boat Sales Marketing Team.
  
 ## Data Source
-The data for this dataset is sourced from [Kaggle.com]([)](https://www.kaggle.com/datasets/karthikbhandary2/boat-sales) revolves around a boat sales website where individuals sell both new and used boats. This website serves as a platform for boat owners to list their boats for sale, providing a diverse and dynamic source of information related to boat sales. The data source is directly tied to the boat sales market, making it highly relevant for marketing and trend analysis in the boating industry.
+The data for this dataset is sourced from [Kaggle.com](https://www.kaggle.com/datasets/karthikbhandary2/boat-sales) revolves around a boat sales website where individuals sell both new and used boats. This website serves as a platform for boat owners to list their boats for sale, providing a diverse and dynamic source of information related to boat sales. The data source is directly tied to the boat sales market, making it highly relevant for marketing and trend analysis in the boating industry.
 ## Data Collection
 The data collection process for this dataset is continuous and ongoing, with updates expected on an annual basis. This regularity in updates ensures that the dataset remains current and reflective of changing market conditions. The marketing team uses this data to create a weekly newsletter for boat owners, helping them enhance the visibility of their listings and stay informed about market trends. The data collection process likely involves web scraping or API access to gather information from the boat sales website.
 ## Contents
