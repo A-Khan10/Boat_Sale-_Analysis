@@ -26,6 +26,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.cluster import KMeans 
 from scikit-learn, import pylab
+
 Software: Jupyter Notebooks and Tableau
 # SKILLS DEMONSTRATED
 Data Wrangling, Cleaning data: removed duplicates; found and resolved missing values; addressed mixed or incorrect data types.
